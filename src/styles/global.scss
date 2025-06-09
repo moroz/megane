@@ -1,0 +1,27 @@
+:root {
+  --container-width: 1280px;
+  --font-sans:
+    "Noto Sans TC Variable", "Noto Sans TC", "Noto Sans", Verdana, Arial,
+    sans-serif;
+  --primary: #aa0601;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font-family: var(--font-sans);
+}
+
+my-container {
+  display: block;
+  width: var(--container-width);
+  margin-inline: auto;
+}
